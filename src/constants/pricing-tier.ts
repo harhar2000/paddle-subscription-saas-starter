@@ -6,6 +6,7 @@ export interface Tier {
   features: string[];
   featured: boolean;
   priceId: Record<string, string>;
+  currency?: string;
 }
 
 export const PricingTier: Tier[] = [
@@ -17,6 +18,7 @@ export const PricingTier: Tier[] = [
     features: ['1 workspace', 'Limited collaboration', 'Export to PNG and SVG'],
     featured: false,
     priceId: { month: 'pri_01jm5569ncrb22rrsjp54xx3ye', year: 'pri_01jm54t65zq2mdcs79a7ww2mq3' },
+    currency: '£',
   },
   {
     name: 'Starter',
@@ -26,6 +28,7 @@ export const PricingTier: Tier[] = [
     features: ['Integrations', 'Unlimited workspaces', 'Advanced editing tools', 'Everything in Starter'],
     featured: true,
     priceId: { month: 'pri_01jm54x1xjbw8wcyvyf3gv1613', year: 'pri_01jm5556fngp7y9p77n3hpd5x9' },
+    currency: '£',
   },
   {
     name: 'Pro',
@@ -41,5 +44,6 @@ export const PricingTier: Tier[] = [
     ],
     featured: false,
     priceId: { month: 'pri_01jm54z45rhe2ess57kwk5gzcv', year: 'pri_01jm551he10tpq049aztv52kfw' },
+    currency: '£',
   },
 ];
