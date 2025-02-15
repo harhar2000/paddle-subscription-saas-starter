@@ -25,7 +25,7 @@ export const PricingTier: Tier[] = [
     description: 'Unlock premium templates and AI suggestions for better designs.',
     features: ['Integrations', 'Unlimited workspaces', 'Advanced editing tools', 'Everything in Starter'],
     featured: true,
-    priceId: { month: 'pri_01jm5556fngp7y9p77n3hpd5x9', year: 'pri_01jm54x1xjbw8wcyvyf3gv1613' },
+    priceId: { month: 'pri_01jm54x1xjbw8wcyvyf3gv1613', year: 'pri_01jm5556fngp7y9p77n3hpd5x9' },
   },
   {
     name: 'Pro',
