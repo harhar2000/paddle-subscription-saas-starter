@@ -45,7 +45,7 @@ This starter kit is built with:
 
 ## Step-by-step setup
 
-> **Important:** If you're totally new to Next.js and Paddle, we have a more complete tutorial on our dev docs: [Build and deploy Next.js app with Vercel and Supabase](https://developer.paddle.com/build/nextjs-supabase-vercel-starter-kit?utm_source=dx&utm_medium=paddle-nextjs-starter-kit)
+> **Important:** If you're totally new to Next.js and Paddle, there is a more complete tutorial on our dev docs: [Build and deploy Next.js app with Vercel and Supabase](https://developer.paddle.com/build/nextjs-supabase-vercel-starter-kit?utm_source=dx&utm_medium=paddle-nextjs-starter-kit)
 
 ### 1. Deploy on Vercel
 
